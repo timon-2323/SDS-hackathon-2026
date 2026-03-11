@@ -7,7 +7,7 @@ Before you do anything, run this at the very top of your notebook. it keeps your
 import polars as pl`
 
 ## Prevents Polars from hogging every bit of CPU power
-os.environ["POLARS_MAX_THREADS"] = "4"
+`os.environ["POLARS_MAX_THREADS"] = "4"`
 
 
 ## Don't "Read," just "Scan"
